@@ -1,0 +1,17 @@
+﻿VERSION BUILD=8961227 RECORDER=FX
+TAB T=1
+
+SET !DATASOURCE users.csv
+
+'Start at line 2 to skip the header in the file
+SET !LOOP 2
+'Increase the current position in the file with each loop 
+SET !DATASOURCE_LINE {{!LOOP}}
+
+URL GOTO=https://server.buycraft.net/payments
+TAG POS=1 TYPE=A ATTR=TXT:Add<SP>payment
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/payments/add ATTR=NAME:username CONTENT={{!COL1}}
+TAG POS=1 TYPE=BUTTON FORM=ACTION:/payments/add ATTR=TXT:Nothing<SP>selected
+TAG POS=2 TYPE=A ATTR=TXT:{{!COL2}}
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=ACTION:/payments/add ATTR=*
+WAIT SECONDS=10
