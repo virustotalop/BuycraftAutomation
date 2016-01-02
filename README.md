@@ -26,3 +26,5 @@
   - Its likely a formatting issue or your file is not in the correct location, refer to step 3 and [users.csv](users.csv).
 - How should I create my users.csv?
   - You are on your own for getting you data. If you want a data converted to csv in bulk [contact me](https://github.com/virustotalop/Contact).
+- Why is this so slow?
+  - The delay is set at 10 seconds after each purchase sent to respect buycraft and not flood it. You can lower the delay in the code.
