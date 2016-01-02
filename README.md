@@ -1,5 +1,5 @@
 # BuycraftAutomation
-[Buycraft](https://www.buycraft.net) package automation, automatically pulls data from a csv and sends the packages through Buycraft.
+[Buycraft](https://www.buycraft.net) package automation, automatically pulls data from a csv and sends packages for users through Buycraft.
 
 # Setup
 ## Items needed
