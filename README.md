@@ -13,7 +13,7 @@
 3. Ready your csv file, an example can be found [here](users.csv). Make sure to view the raw file.
 4. Open up iMacros. 
 5. Edit the #Current.iim to have the code from [BuycraftAutomation.iim](BuycraftAutomation.iim)
-6. Put your users.csv in "C:\Uers\Username\Documents\iMacros\Datasources
+6. Put your users.csv in "C:\Users\Username\Documents\iMacros\Datasources
 7. Set the Repeat macro the the amount of users your in users.csv.
 8. Click on Play(Loop).
 
