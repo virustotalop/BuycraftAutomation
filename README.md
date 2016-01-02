@@ -1,5 +1,5 @@
 # BuycraftAutomation
-[Buycraft](www.buycraft.net) package automation, automatically pulls data from a csv and sends them through Buycraft.
+[Buycraft](https://www.buycraft.net) package automation, automatically pulls data from a csv and sends the packages through Buycraft.
 
 # Setup
 ## Items needed
@@ -8,8 +8,8 @@
 - Csv file in username,package format
 
 ## Instructions
-1. Make sure Firefox is installed with [iMacros](www.buycraft.net).
-2. Navigate to [server.buycraft.net](server.buycraft.net) and login.
+1. Make sure Firefox is installed with [iMacros](https://addons.mozilla.org/en-US/firefox/addon/imacros-for-firefox/).
+2. Navigate to [server.buycraft.net](http://server.buycraft.net) and login.
 3. Ready your csv file, an example can be found [here](users.csv). Make sure to view the raw file.
 4. Open up iMacros. 
 5. Edit the #Current.iim to have the code from [BuycraftAutomation.iim](BuycraftAutomation.iim)
